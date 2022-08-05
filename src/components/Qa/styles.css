@@ -27,7 +27,7 @@
 }
 
 .qa-container--active{
-    height: fit-content;
+    height: auto;
     -moz-transition: all .6s ease;
     -o-transition: all .6s ease;
     -webkit-transition: all .6s ease;
@@ -43,6 +43,7 @@
 .qa-description {
     font-weight: 400;
     height: 0px;
+    margin-top: 20px;
  
     /* max-height: 0px; */
     -moz-transition: all .6s ease;
