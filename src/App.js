@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
 
-import Qa from "./components/Qa/Qa";
+import Accordion from "./components/Accordion/Accordion";
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
           <SwiperSlide>Slide 9</SwiperSlide>
         </Swiper>
       </div> */}
-      <Qa />
+      <Accordion />
     </div>
   );
 }

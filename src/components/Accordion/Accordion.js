@@ -3,14 +3,16 @@ import "./styles.css";
 import { content } from "./content";
 import Item from "./Item";
 
-const Qa = () => {
+const Accordion = () => {
   const [activeItemIndex, setActiveItemIndex] = useState(0);
   const [prevActiveItemIndex, setPrevActiveItemIndex] = useState(0);
   const swiperRef = useRef("");
 
   const handleClick = (index) => {
-    setPrevActiveItemIndex(activeItemIndex);
-    setActiveItemIndex(index);
+    if (activeItemIndex !== index) {
+      setPrevActiveItemIndex(activeItemIndex);
+      setActiveItemIndex(index);
+    }
   };
 
   const calcLinePositionForTransition = () => {
@@ -42,4 +44,4 @@ const Qa = () => {
   );
 };
 
-export default Qa;
+export default Accordion;
