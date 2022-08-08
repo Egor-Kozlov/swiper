@@ -13,20 +13,11 @@
     cursor: pointer;
     overflow: hidden;
     height: 30px;
-    -moz-transition: all .6s ease;
-    -o-transition: all .6s ease;
-    -webkit-transition: all .6s ease;
+    transition: all .6s ease;
 }
 
 .qa-container--active{
-    /* height: 160px; */
-    -moz-transition: all .6s ease;
-    -o-transition: all .6s ease;
-    -webkit-transition: all .6s ease;
-}
-
-.main-container:last-child{
-    margin-bottom: 0px;
+    transition: all .6s ease;
 }
 
 .qa-container:nth-last-child(-n+2){
@@ -34,29 +25,17 @@
 }
 
 .qa-container--prev-active{
-    -moz-transition: all .6s ease;
-    -o-transition: all .6s ease;
-    -webkit-transition: all .6s ease;
+    transition: all .6s ease;
 }
 
 .qa-description {
     font-weight: 400;
-    /* min-height: 0px; */
     margin-top: 20px;
- 
-    /* max-height: 0px; */
-    -moz-transition: all .6s ease;
-    -o-transition: all .6s ease;
-    -webkit-transition: all .6s ease;
+    transition: all .6s ease;
 }
 
 .qa-description--active{
-    /* min-height: 50px; */
-    /* max-height: 200px; */
-    /* min-height: 85px; */
-    -moz-transition: all .6s ease;
-    -o-transition: all .6s ease;
-    -webkit-transition: all .6s ease;
+    transition: all .6s ease;
 }
 
 
